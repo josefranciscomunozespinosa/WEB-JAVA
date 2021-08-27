@@ -1,9 +1,6 @@
 # WEB-JAVA-2 - Dependencies Injection using Spring Framework
 
-
  <br/>
- <br/>
- 
  
  ## Part 1: Implementing Student Service: ArrayList
  1. Download and import the project inside the [DependenciesInjection folder.](/DependenciesInjection)
@@ -29,7 +26,7 @@
   ```html
     http://localhost:8080/student/10
   ```
- ## Part 2: Implementing Student Service: HasMap
+ ## Part 2: Implementing Student Service: HashMap
 1. Create a new Java class *StudentServiceImplMap* that implements the *StudentService* class.
 2. Implement the methods of the *StudentService* interface using a HashMap as the internal data structure.
 3. Move the *@Service* annotation from the *StudentServiceImpl* to the *StudentServiceImplMap*
