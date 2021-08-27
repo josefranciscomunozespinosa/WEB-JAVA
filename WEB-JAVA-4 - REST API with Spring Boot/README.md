@@ -1,9 +1,6 @@
 # WEB-JAVA-4 - REST API with Spring Boot
 
-
  <br/>
- <br/>
- 
  
  ## Part 1: Create the Database Table
 1. Run the following SQL scripts using MySQL Client:
