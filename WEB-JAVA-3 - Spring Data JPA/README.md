@@ -1,12 +1,10 @@
 # WEB-JAVA-3 - Spring Data JPA
 
+ <br/>
 
- <br/>
- <br/>
- 
  
  ## Part 1: Creating the database
-1. Open MySQL Workbench and create a new Database with the following tables:
+1. Open MySQL client and create a new Database with the following tables:
 * Products (id, name, description, price)
 * Sales (id, description, total)
 2. Add a many-to-one relationship from the *Sales* table to the *Products* table
