@@ -5,9 +5,9 @@
 ### Step 1: Hello Docker World 
 1. `git clone https://github.com/spring-guides/gs-spring-boot-docker.git`
 2. Import the project into IntelliJ.
-3. Take the `Application.java` file from this folder and put it into the `src/` in your project.
-4. In your terminal, go to `gs-spring-boot-docker/complete`. Run from the command line:`./mvnw package && java -jar target/gs-spring-boot-docker-0.1.0.jar`
-5. Go to localhost:8080 to see your "Hello Docker World" message.
+3. Take the `Application.java` file from this folder and put it into the `src/` in your project. (already done in the complete folder)
+5. In your terminal, go to `gs-spring-boot-docker/complete`. Run from the command line:`./mvnw package && java -jar target/spring-boot-docker-complete-0.0.1-SNAPSHOT.jar`
+6. Go to localhost:8080 to see your "Hello Docker World" message.
 
 ### Step 2: Containerize It
 1. Put the `Dockerfile` in this folder into your application.
