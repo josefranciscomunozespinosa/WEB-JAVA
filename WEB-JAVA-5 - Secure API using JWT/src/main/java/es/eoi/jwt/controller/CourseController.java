@@ -1,8 +1,8 @@
-package org.generation.jwt.controller;
+package es.eoi.jwt.controller;
 
 
-import org.generation.jwt.model.Course;
-import org.generation.jwt.service.CourseService;
+import es.eoi.jwt.model.Course;
+import es.eoi.jwt.service.CourseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

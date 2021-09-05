@@ -1,4 +1,4 @@
-package org.generation.jwt;
+package es.eoi.jwt;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

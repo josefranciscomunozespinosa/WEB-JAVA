@@ -1,4 +1,4 @@
-package org.generation.jwt.config;
+package es.eoi.jwt.config;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

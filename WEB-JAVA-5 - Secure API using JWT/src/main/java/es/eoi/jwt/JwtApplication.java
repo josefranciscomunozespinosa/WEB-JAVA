@@ -1,6 +1,6 @@
-package org.generation.jwt;
+package es.eoi.jwt;
 
-import org.generation.jwt.config.JwtFilter;
+import es.eoi.jwt.config.JwtFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;

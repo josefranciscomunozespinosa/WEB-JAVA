@@ -1,10 +1,10 @@
-package org.generation.jwt.controller;
+package es.eoi.jwt.controller;
 
 
+import es.eoi.jwt.controller.dto.LoginDto;
+import es.eoi.jwt.controller.dto.Token;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-import org.generation.jwt.controller.dto.LoginDto;
-import org.generation.jwt.controller.dto.Token;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,7 +18,7 @@ public class AuthController
 {
 
     @PostMapping( "/auth" )
-    public Token auth( @RequestBody LoginDto loginDto )
+    public Token auth(@RequestBody LoginDto loginDto )
         throws ServletException
     {
         if ( loginDto.getUsername().equals( "user@mail.com" ) && loginDto.getPassword().equals( "password" ) )

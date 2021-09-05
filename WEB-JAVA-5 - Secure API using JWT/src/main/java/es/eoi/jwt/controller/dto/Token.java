@@ -1,4 +1,4 @@
-package org.generation.jwt.controller.dto;
+package es.eoi.jwt.controller.dto;
 
 public class Token
 {

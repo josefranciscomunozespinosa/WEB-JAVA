@@ -1,6 +1,6 @@
-package org.generation.jwt.service;
+package es.eoi.jwt.service;
 
-import org.generation.jwt.model.Course;
+import es.eoi.jwt.model.Course;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

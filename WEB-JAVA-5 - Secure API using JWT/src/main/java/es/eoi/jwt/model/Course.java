@@ -1,4 +1,4 @@
-package org.generation.jwt.model;
+package es.eoi.jwt.model;
 
 public class Course
 {
