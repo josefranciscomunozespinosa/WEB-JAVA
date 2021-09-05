@@ -11,12 +11,25 @@
 
 ### Step 2: Containerize It
 1. Put the `Dockerfile` in this folder into your application.
-2. Run in the command line `$ mkdir -p build/dependency && (cd build/dependency; jar -xf ../libs/*.jar)`
-3. Create your Docker image.
-`$ docker build --build-arg DEPENDENCY=build/dependency -t springio/gs-spring-boot-docker .`
-4. Run on docker!
-`docker run -p 8080:8080 -t springio/gs-spring-boot-docker`
-5. Check out your Docker World Application at http://localhost:8080.
+2. Follow the instructions from [here](https://spring.io/guides/gs/spring-boot-docker/)
+    - If you use Gradle, you can run it with the following command:
+    ```
+    docker build --build-arg JAR_FILE=build/libs/\*.jar -t springio/gs-spring-boot-docker .
+    ```
+    - If you use Maven, you can run it with the following command:
+    ```
+    docker build -t springio/gs-spring-boot-docker .
+    ```
+    - This command builds an image and tags it as springio/gs-spring-boot-docker.
+    - Create your Docker image with dependencies folder:
+    ```
+    docker build --build-arg DEPENDENCY=build/dependency -t springio/gs-spring-boot-docker .
+    ```
+3. Run on docker!
+    ```
+    docker run -p 8080:8080 -t springio/gs-spring-boot-docker
+    ```
+4. Check out your Docker World Application at http://localhost:8080.
 
 Congratulations! You’ve just created a Docker container for a Spring Boot app! 
 
