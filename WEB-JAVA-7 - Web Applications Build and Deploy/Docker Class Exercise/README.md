@@ -22,10 +22,7 @@
     docker build -t springio/gs-spring-boot-docker .
     ```
     - This command builds an image and tags it as springio/gs-spring-boot-docker.
-    - Create your Docker image with dependencies folder:
-    ```
-    docker build --build-arg DEPENDENCY=build/dependency -t springio/gs-spring-boot-docker .
-    ```
+
 3. Run on docker!
     ```
     docker run -p 8080:8080 -t springio/gs-spring-boot-docker
