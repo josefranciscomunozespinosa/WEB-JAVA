@@ -35,7 +35,7 @@ Congratulations! You’ve just created a Docker container for a Spring Boot app!
 
 1. Make sure you have a Heroku account and install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install).
 2. Create your docker image from the steps above (Creating your first Docker Image).
-3. Create one file called `heroku.yml` at the same place than the Dockerfile
+3. Create one file called `heroku.yml` in the same path than the Dockerfile
 ```
 build:
   docker:
