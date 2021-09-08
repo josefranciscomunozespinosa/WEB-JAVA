@@ -25,7 +25,7 @@ COPY --from=builder /work/app.jar /work/app.jar
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/work/app.jar"]
 ```
 
-Update! I had problems with this docker file in heroku. If doen't work try with this one:
+2021-09 - Update! I had problems with this docker file in heroku. If doen't work try with this one:
 
 ```Dockerfile
 FROM openjdk:8-jdk-alpine
